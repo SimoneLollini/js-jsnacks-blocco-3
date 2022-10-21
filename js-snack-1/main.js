@@ -71,3 +71,12 @@ const automobiliBenzina = automobili.filter(function (automobile) {
     return false
 })
 console.log(automobiliBenzina);
+
+const automobiliDisel = automobili.filter(function (automobile) {
+    console.log((automobile.alimentazione == "disel"));
+    if (automobile.alimentazione == "disel") {
+        return true
+    }
+    return false
+})
+console.log(automobiliBenzina);
