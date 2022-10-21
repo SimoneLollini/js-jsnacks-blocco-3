@@ -17,3 +17,11 @@ const firtChart = nomiLower.map(nome => {
     return nome.charAt(0).toUpperCase();
 })
 console.log(firtChart);
+
+const nomiSlice = nomiLower.map(nome => {
+    console.log(nome);
+    return nome.slice(1)
+});
+console.log(nomiSlice);
+
+
